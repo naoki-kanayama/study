@@ -107,10 +107,15 @@ img{
   margin-bottom: 50px;
 }
 article{
-  width: 74%;
+  width: 60%;
+  order: 2;
 }
 aside{
   width: 22%;
+  order: 3;
+}
+.ad{
+  order: 1;
 }
 .post-info{
   position: relative;
@@ -246,4 +251,5 @@ footer p{
   .post-cat{
     margin-left: 80px;
   }
+  
 }
